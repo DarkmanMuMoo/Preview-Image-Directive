@@ -1,11 +1,20 @@
-Preview-Image-Directive
+File-Directive
 =======================
 
-Angular Directive to preview image file 
+Angular Directives to manipulate file
 
 Example
 
 ```html
-<input type="file" preview-image="fielModel" >
+
+<input type="file" file-model="model" >
+
+```
+Or Add Preview image
+
+```html
+
+<input type="file" file-model="model"  preview-image >
+
 ```
 
